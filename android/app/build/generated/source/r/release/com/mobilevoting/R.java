@@ -2757,20 +2757,23 @@ public final class R {
     public static final int notification_template_icon_low_bg=0x7f06005f;
     public static final int notification_tile_bg=0x7f060060;
     public static final int notify_panel_notification_icon_bg=0x7f060061;
-    public static final int tooltip_frame_dark=0x7f060062;
-    public static final int tooltip_frame_light=0x7f060063;
-    public static final int ucrop_ic_angle=0x7f060064;
-    public static final int ucrop_ic_crop=0x7f060065;
-    public static final int ucrop_ic_cross=0x7f060066;
-    public static final int ucrop_ic_done=0x7f060067;
-    public static final int ucrop_ic_next=0x7f060068;
-    public static final int ucrop_ic_reset=0x7f060069;
-    public static final int ucrop_ic_rotate=0x7f06006a;
-    public static final int ucrop_ic_scale=0x7f06006b;
-    public static final int ucrop_shadow_upside=0x7f06006c;
-    public static final int ucrop_vector_ic_crop=0x7f06006d;
-    public static final int ucrop_vector_loader=0x7f06006e;
-    public static final int ucrop_vector_loader_animated=0x7f06006f;
+    public static final int src_assets_matric=0x7f060062;
+    public static final int src_assets_mobilevoting=0x7f060063;
+    public static final int src_assets_passcode=0x7f060064;
+    public static final int tooltip_frame_dark=0x7f060065;
+    public static final int tooltip_frame_light=0x7f060066;
+    public static final int ucrop_ic_angle=0x7f060067;
+    public static final int ucrop_ic_crop=0x7f060068;
+    public static final int ucrop_ic_cross=0x7f060069;
+    public static final int ucrop_ic_done=0x7f06006a;
+    public static final int ucrop_ic_next=0x7f06006b;
+    public static final int ucrop_ic_reset=0x7f06006c;
+    public static final int ucrop_ic_rotate=0x7f06006d;
+    public static final int ucrop_ic_scale=0x7f06006e;
+    public static final int ucrop_shadow_upside=0x7f06006f;
+    public static final int ucrop_vector_ic_crop=0x7f060070;
+    public static final int ucrop_vector_loader=0x7f060071;
+    public static final int ucrop_vector_loader_animated=0x7f060072;
   }
   public static final class id {
     public static final int ALT=0x7f070000;
@@ -3028,6 +3031,7 @@ public final class R {
   public static final class mipmap {
     public static final int ic_launcher=0x7f0b0000;
     public static final int ic_launcher_round=0x7f0b0001;
+    public static final int mobilevoting=0x7f0b0002;
   }
   public static final class string {
     public static final int abc_action_bar_home_description=0x7f0c0000;

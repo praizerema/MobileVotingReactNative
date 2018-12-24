@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/oginni/NodeProject/MobileVoting/android/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-nl/values-nl.xml",
+            "outputFile": "/home/oginni/NodeProject/MobileVotingReactNative/android/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-nl/values-nl.xml",
             "map": [
                 {
                     "source": "/home/oginni/.gradle/caches/transforms-1/files-1.1/ucrop-2.2.2-native.aar/af2065be711f1b01e8187f836331c80b/res/values-nl/values-nl.xml",

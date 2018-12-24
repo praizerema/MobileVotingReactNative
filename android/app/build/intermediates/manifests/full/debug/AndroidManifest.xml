@@ -28,7 +28,7 @@
         android:name="com.mobilevoting.MainApplication"
         android:allowBackup="false"
         android:debuggable="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/mobilevoting"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity

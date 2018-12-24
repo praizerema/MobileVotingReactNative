@@ -1,4 +1,4 @@
-#Thu Nov 15 04:52:00 WAT 2018
-base.0=/home/oginni/NodeProject/MobileVoting/android/app/build/intermediates/transforms/dexMerger/release/0
+#Fri Dec 21 14:21:58 WAT 2018
+base.0=/home/oginni/NodeProject/MobileVotingReactNative/android/app/build/intermediates/transforms/dexMerger/release/0
 path.0=classes.dex
 renamed.0=classes.dex

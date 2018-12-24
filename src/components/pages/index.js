@@ -1,10 +1,9 @@
 import React, { Component } from 'react'
 import { View, Text, StyleSheet, StatusBar, Image, ActivityIndicator,TouchableOpacity } from 'react-native'
-import Main from '../pages/Main';
 
 export default class Index extends Component {
   static navigationOptions = {
-    header: null
+    header: null,
   };
   constructor(props) {
     super(props)
@@ -58,3 +57,4 @@ const STYLE = StyleSheet.create({
     marginVertical: 15,
   }
 })
+
