@@ -43,9 +43,15 @@ export default class Main extends Component {
       .then(result => {
         console.log(result);
         if (result.length != 0) {
-          if (result[0].voted == "1")
+          if (result[0].voted == "0") {
+            Alert.alert("Response", "You have not been accedited\nMeet with any of our agent for accreditation");
+          } else if (result[0].voted == "1"){
+            this.props.navigation.navigate("Vote", { user: result });
+          }
+          else if (result[0].voted == "2")
             Alert.alert("Response", "You already cast vote");
-          else this.props.navigation.navigate("Vote", { user: result });
+          else 
+          Alert.alert("Response", "Error while processing data");
         } else
           Alert.alert("Response", "Details Does not match any Voters record");
       })
@@ -85,7 +91,7 @@ export default class Main extends Component {
               style={styles.buttonContainer}
               onPress={() => {
                 let ch5 = this.state.matric.match(
-                  /(f|p)\/(hd|nd)\/\d{2}\/321\d{4}/i
+                  /(AD\/R\/S\/\d{3})/i
                 );
                 if (ch5 !== null) {
                   this.state.matric == ch5[0];
